@@ -1,0 +1,10 @@
+run_name,model_type,epochs,batch_size,embed_dim,hidden_dim,n_heads,n_layers,ff_dim,dropout,best_ndcg@20,out_dir
+gru_e3_bs256_dim64_hid128,gru,3,256,64,128,4,2,256,0.1,0.30498596647512644,outputs/gru_e3_bs256_dim64_hid128
+tf_e3_bs256_dim64_h4_l2_ff256,transformer,3,256,64,128,4,2,256,0.1,0.3083488851035894,outputs/tf_e3_bs256_dim64_h4_l2_ff256
+markov_k20,markov,,,,,,,,,0.2972732110688373,data/processed_v3
+gru_e3_bs256_dim64_hid128,gru,3,256,64,128,4,2,256,0.1,0.30494952231105865,outputs/gru_e3_bs256_dim64_hid128
+gru_e3_bs256_dim64_hid128,gru,3,256,64,128,4,2,256,0.1,0.2166183620393315,outputs/gru_e3_bs256_dim64_hid128
+tf_e3_bs256_dim64_h4_l2_ff256,transformer,3,256,64,128,4,2,256,0.1,0.3125892876476281,outputs/tf_e3_bs256_dim64_h4_l2_ff256
+tf_e3_bs256_dim64_h4_l2_ff256,transformer,3,256,64,128,4,2,256,0.1,0.21935940414390812,outputs/tf_e3_bs256_dim64_h4_l2_ff256
+gru_e1_bs256_dim64_hid128_lossfull,gru,1,256,64,128,4,2,256,0.1,0.27281419015918545,outputs/gru_e1_bs256_dim64_hid128_lossfull
+gru_e1_bs256_dim64_hid128_lossinbatch,gru,1,256,64,128,4,2,256,0.1,0.21040355797941157,outputs/gru_e1_bs256_dim64_hid128_lossinbatch

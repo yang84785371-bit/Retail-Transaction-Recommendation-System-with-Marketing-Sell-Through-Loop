@@ -1,0 +1,20 @@
+{
+  "data_dir": "data/processed_v3",
+  "max_seq_len": 100,
+  "embed_dim": 64,
+  "hidden_dim": 128,
+  "batch_size": 256,
+  "epochs": 3,
+  "lr": 0.001,
+  "device": "cuda",
+  "model_type": "gru",
+  "n_heads": 4,
+  "n_layers": 2,
+  "ff_dim": 256,
+  "dropout": 0.1,
+  "run_name": "gru_e3_bs256_dim64_hid128",
+  "loss_type": "inbatch",
+  "num_items": 4626,
+  "data_dir_resolved": "/home/didu/projects/foreign_trade_reco/data/processed_v3",
+  "started_at": "2026-01-17T14:09:22"
+}
